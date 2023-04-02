@@ -67,11 +67,17 @@ qcggrow:
   - cmd: --fixsolute
     descript: >
       Fix the solute during the grow process (automatically done for water as solvent).
-
+      
   - cmd: --nofix
     descript: >
       No fixing of the solute during the grow process 
       (fixing is only applied for water as solvent file).
+
+  - cmd: --normdock
+    descript: >
+      Use the docking algorithm during the grow algorithm with normal settings
+      (per default, reduced settings are applied for a faster search).
+      This is only possible in combination with the aISS algorithm.
 
 
 qcgensemble:
