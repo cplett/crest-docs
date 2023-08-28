@@ -73,6 +73,10 @@ qcggrow:
       No fixing of the solute during the grow process 
       (fixing is only applied for water as solvent file).
 
+  - cmd: --fin_opt_gfn2
+    descript: >
+      Final GFN2-xTB optimization after each step, if GFN1-xTB or GFN-FF is selected.
+      
 
 qcgensemble:
 
